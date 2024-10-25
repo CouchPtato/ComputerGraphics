@@ -13,6 +13,7 @@ void LineBres()
   cin >> x1 >> y1;
 
   int dx, dy, p, x, y;
+  
   dx = x1 - x0;
   dy = y1 - y0;
   x = x0;
