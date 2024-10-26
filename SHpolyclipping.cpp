@@ -59,7 +59,7 @@ void drawPolygon(Point points[], int n) {
 
 int main() {
     int gd = DETECT, gm;
-    initgraph(&gd, &gm, const_cast<char*>("C:\\TURBOC3\\BGI"));
+    initgraph(&gd, &gm, ("C:\\TURBOC3\\BGI"));
     
     cout << "Enter clipping window (xmin, ymin, xmax, ymax): ";
     cin >> xmin >> ymin >> xmax >> ymax;
